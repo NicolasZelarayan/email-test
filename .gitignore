@@ -1,0 +1,15 @@
+# Ignorar archivos generados por el sistema
+node_modules/
+npm-debug.log
+
+# Ignorar archivos generados por el editor
+.vscode/
+.idea/
+
+# Ignorar archivos de compilación
+/build/
+/dist/
+/out/
+
+# Ignorar archivos de configuración local
+.env

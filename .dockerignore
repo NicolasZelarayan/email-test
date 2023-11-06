@@ -1,0 +1,17 @@
+# Ignorar archivos y directorios específicos
+node_modules/
+npm-debug.log
+.vscode/
+.idea/
+/build/
+/dist/
+/out/
+.env
+.git/
+
+# Ignorar archivos específicos en la raíz
+Dockerfile
+docker-compose.yml
+
+# Ignorar archivos de configuración local
+.dockerignore
