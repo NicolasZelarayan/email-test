@@ -9,12 +9,12 @@ app.use(bodyParser.json());
 
 // Configura el transporte de correo
 const transporter = nodemailer.createTransport({
-  host: 'smtp.tudominio.com', // Reemplaza con tu servidor SMTP
+  host: 'mail.digital-mirage.ar', // Reemplaza con tu servidor SMTP
   port: 587, // El puerto SMTP
   secure: false, // Establece a true si usas SSL/TLS
   auth: {
     user: 'admin@digital-mirage.ar', // Cambia a tu correo electrónico
-    pass: 'tucontraseña', // Cambia a tu contraseña
+    pass: '832511nZ', // Cambia a tu contraseña
   },
 });
 
